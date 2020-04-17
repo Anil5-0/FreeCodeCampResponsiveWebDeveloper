@@ -1,0 +1,74 @@
+body{
+	font: Arial, Helvetica, sans-serif;
+	line-height: 1.6em;
+	font-size: 16px;
+	background-image: url('bgimage.jpg');
+}
+
+
+#text-area, input, select{
+  display:block;
+}
+
+#radio{
+  display:inline;
+}
+
+
+#title{
+	text-align: center;
+	color: #fff;
+}
+
+
+#description{
+	text-align: center;
+	color: #fff;
+}
+
+#survey-form{
+	background :coral;
+	width: 80%;
+	border: 1px solid black;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+#name-label, #email-label, #number-label{
+	padding:10px;
+	margin-left: 10px;
+}
+
+#name, #email, #number{
+	margin-left:20px;
+	padding: 5px;
+}
+
+#dropdown-1, #dropdown, #recommend, #radio{
+	margin-left: 20px;
+}
+
+
+#improved{
+	padding-left: 20px;
+}
+
+#checkbox1{
+	display: inline;
+	margin-left: 20px;
+}
+
+.check{
+	padding: 20px;
+	margin: 5px;
+}
+
+
+#submit{
+	background-color: green;
+	color: #fff;
+	width: 40em;
+	height: 2em;
+	width: 80%;
+	margin: auto;
+}

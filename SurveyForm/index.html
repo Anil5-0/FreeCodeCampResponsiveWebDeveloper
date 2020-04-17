@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>Survey Form</title>
+	  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+    
+      <form id="survey-form">
+          <div class="check">
+            <label id="name-label">Name</label>  
+            <input type="text" id="name" size="25" placeholder="Enter your name" required>
+          </div>
+          <div class="check">
+            <label id="email-label">Email</label>
+            <input type="email" name="email" size="25" id="email" placeholder="Enter your email" required>
+          </div>   
+          <div class="check">
+              <label id="number-label">Number</label>
+              <input type="number" min="1" max="100" id="number" placeholder="Age">
+          </div>
+          <div class="check">
+              <label id="dropdown-1">Which option best describes your current role?</label> 
+               <select name="" id="dropdown">
+                  <option value="Student">Student</option>
+                  <option value="Full time Job">Full Time Job</option>
+                  <option value="Part time Job">Part Time Job</option>
+                  <option value="prefer not to say">Prefer not to say</option>
+                  <option value="others">Other</option>
+              </select>
+          </div>
+        
+          <div class="check">
+            <label id="recommend">Would you recommend others to take this survey?</label>
+            <br>
+            <input type="radio" name="grp1" id="radio" value="answer"> 
+            <label for="definitely">Definitely</label><br>
+            <input type="radio" name="grp1" id="radio" value="answer">
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" name="not sure" id="radio" value="answer">
+            <label for="notsure">Sure</label><br>
+            <input type="radio" name="not sure" id="radio" value="answer">
+            <label for="notsure">Not Sure</label>
+         </div>
+        
+        <div class="check">
+            <p id="improved">What would you like to see improved?</p>
+            <input type="checkbox" id="checkbox1" value="answers1" name="front">
+            <label for="front">Front-end Projects</label><br>
+            <input type="checkbox" id="checkbox1" value="answers1" name="back">
+            <label for="back">Back-end Projects</label><br>
+            <input type="checkbox" id="checkbox1" value="answers1" name="other">
+            <label for="others ">Others</label><br>
+        </div>
+        
+        
+        <div class="check">
+            <label for="">Any Comments or Suggestions</label>
+            <textarea name="" id="text-area" cols="30" rows="10"></textarea>
+        </div>
+        
+        <input type="submit" id="submit" value="submit" name="submit">
+      </form>
+    
+    
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+    
+  </body>
+</html>
